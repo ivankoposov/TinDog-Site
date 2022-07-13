@@ -79,11 +79,15 @@ h3 {
 #testimonials {
   background-color: #ef8172;
   text-align: center;
-  padding: 7% 15%;
+
   color: white;
 }
 
-.testomonial-img {
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
@@ -97,5 +101,13 @@ h3 {
 
 .press-logo {
   width: 15%;
-  margin: 20px 20px 50px; 
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
