@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -55,11 +55,15 @@ h3 {
 
 #iphone-mockup {
   transform: rotate(25deg);
-  width: 70%;
+  width: 20%;
+  right: 23%;
+  position: absolute;
 }
 
 #features {
   padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
 }
 
 #features p {
@@ -110,4 +114,46 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1034px) {
+  #title {
+    text-align: center;
+  }
+
+  #iphone-mockup {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 3% 15% 7%;
+}
+
+#cta h3 {
+  font-size: 3rem;
+}
+
+#footer {
+  padding: 3% 15% 7%;
+  background-color: #fff;
+  text-align: center;
+}
+
+#footer p {
+  color: #8f8f8f;
+  margin-top: 1rem;
+}
+.icon-line {
+  padding: 0 30%;
+  color: black;
+}
+
+.icon-line a {
+  color: black;
 }
