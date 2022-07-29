@@ -1,34 +1,47 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-
-#title {
-  background-color: #ff4c68;
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
 }
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
+/* sections */
+.colored-section {
+  background-color: #ff4c68;
   color: white;
 }
 
-h2 {
-  font-weight: bold;
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
   font-size: 2.5rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
+/* Navbar */
 
 .navbar {
   margin-bottom: 4.5rem;
@@ -49,6 +62,13 @@ h3 {
   font-weight: 300;
 }
 
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -60,14 +80,14 @@ h3 {
   position: absolute;
 }
 
+/* feature section */
+
 #features {
-  padding: 7% 15%;
   position: relative;
-  background-color: #fff;
 }
 
-#features p {
-  color: #8f8f8f;
+.feature-title {
+  font-size: 1.5rem;
 }
 
 #features i {
@@ -80,15 +100,15 @@ h3 {
   color: #ff4c68;
 }
 
+/* testimonials */
+
 #testimonials {
   background-color: #ef8172;
-  text-align: center;
-
-  color: white;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 .testimonial-img {
@@ -97,9 +117,10 @@ h3 {
   margin: 20px;
 }
 
+/* press section */
+
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -108,13 +129,39 @@ h3 {
   margin: 20px 20px 50px;
 }
 
+/* price section */
+
 #pricing {
   padding: 100px;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* cta section */
+
+#cta h3 {
+  font-size: 3rem;
+}
+
+/* footer section */
+
+.icon-line {
+  padding: 0 30%;
+  margin-bottom: 1.5rem;
+}
+
+.icon-line a {
+  color: black;
+}
+
+
 
 @media (max-width: 1034px) {
   #title {
@@ -126,34 +173,4 @@ h3 {
     transform: rotate(0);
     width: 60%;
   }
-}
-
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: white;
-  padding: 3% 15% 7%;
-}
-
-#cta h3 {
-  font-size: 3rem;
-}
-
-#footer {
-  padding: 3% 15% 7%;
-  background-color: #fff;
-  text-align: center;
-}
-
-#footer p {
-  color: #8f8f8f;
-  margin-top: 1rem;
-}
-.icon-line {
-  padding: 0 30%;
-  color: black;
-}
-
-.icon-line a {
-  color: black;
 }
